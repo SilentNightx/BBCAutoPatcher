@@ -3,6 +3,8 @@ Generates an auto patch for the Morrowind mod Better Balanced Combat.
 
 For now the auto patch just applies NPC/Creature effects but if everything on the to-do list gets finished then it could replace hand made patches.
 
+Feel free to commit.
+
 # To-do
 Copy OpenMW load order to original Morrowind on yes/no prompt.
 
