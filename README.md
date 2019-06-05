@@ -21,4 +21,4 @@ Apply Chantox's WRAR effects (will update with specifics once I have them).
 # Additional credits
 Greatness7 for writing the perl code.
 
-john.moonsugar for TES3cmd.
+john.moonsugar for TES3cmd, licensed under MIT.
