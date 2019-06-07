@@ -17,6 +17,7 @@ Make blind effects only max magnitude and decrease duration by half.
 Convert blind ingredient effects to Drain Block.
 
 Apply a light version Chantox's WRAR effects:
+
 Two handed axes
 +3 minimum slash
 
