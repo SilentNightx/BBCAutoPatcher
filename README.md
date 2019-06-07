@@ -16,7 +16,35 @@ Make blind effects only max magnitude and decrease duration by half.
 
 Convert blind ingredient effects to Drain Block.
 
-Apply Chantox's WRAR effects (will update with specifics once I have them).
+Apply a light version Chantox's WRAR effects:
+Two handed axes
++3 minimum slash
+
+Staves
+-0.15 reach
+
+Claymores
++0.3 reach
+-0.25 speed
++3 minimum thrust
+
+Dai-Katanas
++0.3 reach
+Swap chop and slash
++3 minimum thrust
+
+Warhammers
+-0.25 reach
+If not iron -0.1 speed and +3 minimum slash
+
+Shortswords
+-0.1 reach
+
+Daggers
+-0.25 reach
+
+Halberds
+Swap chop and thrust
 
 # Additional credits
 Greatness7 for writing the perl code.
