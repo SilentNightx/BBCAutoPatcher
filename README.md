@@ -18,7 +18,7 @@ Convert blind ingredient effects to Drain Block.
 
 <br/>
 Apply a light version Chantox's WRAR effects:
-
+<br/>
 <br/>
 Two handed axes
 
@@ -70,6 +70,7 @@ Halberds
 Swap chop and thrust
 
 <br/>
+
 # Additional credits
 Greatness7 for writing the perl code.
 
