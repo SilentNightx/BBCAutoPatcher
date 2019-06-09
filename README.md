@@ -16,6 +16,8 @@ Make blind effects only max magnitude and decrease duration by half.
 
 Convert blind ingredient effects to Drain Block.
 
+Notify and warn about instances where the Remove Curse magic effect was used.
+
 <br/>
 Apply a light version Chantox's WRAR effects:
 <br/>
