@@ -29,6 +29,10 @@ for my $plugin (reverse $T3->load_order) {
 	next if $plugin eq 'Better Balanced Combat - TR Patch Base Module.esp';
 	next if $plugin eq 'Better Balanced Combat - TR Patch Effects Module.esp';
 	next if $plugin eq 'Better Balanced Combat - TR Patch Weapon Stats Module.esp';
+	next if $plugin eq 'Better Balanced Combat - Morrowind Rebirth Patch.esp';
+	next if $plugin eq 'Better Balanced Combat - MR Patch Base Module.esp';
+	next if $plugin eq 'Better Balanced Combat - MR Patch Effects Module.esp';
+	next if $plugin eq 'Better Balanced Combat - MR Patch Weapon Stats Module.esp';
 
 	# exclude mods with patches
 	next if $plugin eq 'Siege at Firemoth.esp';
@@ -37,6 +41,22 @@ for my $plugin (reverse $T3->load_order) {
 	next if $plugin eq 'TR_Preview.esp';
 	next if $plugin eq 'TR_Travels.esp';
 	next if $plugin eq 'TR_Factions.esp';
+	next if $plugin eq 'Morrowind Rebirth [Main].ESP';
+	next if $plugin eq 'Morrowind Rebirth - Birthsigns [Addon].ESP';
+	next if $plugin eq 'Morrowind Rebirth - Game Settings [Addon].ESP';
+	next if $plugin eq 'Morrowind Rebirth - Mercenaries [Addon].ESP';
+	next if $plugin eq 'Morrowind Rebirth - Races [Addon].esp';
+	next if $plugin eq 'Morrowind Rebirth - Skills [Addon].ESP';
+	next if $plugin eq 'Morrowind Rebirth - Tools [Addon].ESP';
+	
+	# exclude merged objects patches
+	next if $plugin eq 'Merged Objects.esp';
+	next if $plugin eq 'Merged_Objects.esp';
+	next if $plugin eq 'merged_objects.esp';
+	next if $plugin eq 'Merged_Objects1.esp';
+	next if $plugin eq 'Merged_Objects_old.esp';
+	next if $plugin eq 'Merged_temp.esp';
+	next if $plugin eq 'Output.esp';
 	
 	# exclude incompatible mods
 	next if $plugin eq 'abotGuars.esp';
