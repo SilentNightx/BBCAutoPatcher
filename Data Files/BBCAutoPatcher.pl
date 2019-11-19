@@ -29,10 +29,10 @@ for my $plugin (reverse $T3->load_order) {
 	next if $plugin eq 'Better Balanced Combat - TR Patch Base Module.esp';
 	next if $plugin eq 'Better Balanced Combat - TR Patch Effects Module.esp';
 	next if $plugin eq 'Better Balanced Combat - TR Patch Weapon Stats Module.esp';
-	next if $plugin eq 'Better Balanced Combat - Morrowind Rebirth Patch.esp';
-	next if $plugin eq 'Better Balanced Combat - MR Patch Base Module.esp';
-	next if $plugin eq 'Better Balanced Combat - MR Patch Effects Module.esp';
-	next if $plugin eq 'Better Balanced Combat - MR Patch Weapon Stats Module.esp';
+	next if $plugin eq 'Better Balanced Combat Rebirth';
+	next if $plugin eq 'Better Balanced Combat Rebirth - Base Module.esp';
+	next if $plugin eq 'Better Balanced Combat Rebirth - Effects Module.esp';
+	next if $plugin eq 'Better Balanced Combat Rebirth - Extras Module.esp';
 
 	# exclude mods with patches
 	next if $plugin eq 'Siege at Firemoth.esp';
